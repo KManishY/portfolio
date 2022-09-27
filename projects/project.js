@@ -1,7 +1,7 @@
 const Projects = [
 	{
 		name: "Bonsai-Clone(Individual Project)",
-		about: "Bonsai is the best way to consolidate the “other” side of being in business as a freelancer or independent operator. I individually done that project using React, React-redux and Chakra UI",
+		about: "Bonsai is the best way to consolidate the “other” side of being in business as a freelancer or independent operator. I individually done that project using React, React-redux and Chakra UI.",
 		img: "https://github.com/KManishY/hello_Bonsai_Clone/blob/master/BonsaiImage.png?raw=true",
 		gitrepo: "https://github.com/KManishY/hello_Bonsai_Clone",
 		tech_stack: "HTML | CSS | JAVASCRIPT | REACT | CHAKRA UI",
@@ -9,16 +9,16 @@ const Projects = [
 			`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
 			`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
 			`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-			`<img src="https://imgs.search.brave.com/p1bm7bi3NtnfeZBLMJXxuRdCrcVm56KV7ueBUnWQ1FE/rs:fit:48:48:1/g:ce/aHR0cHM6Ly93d3cu/c2hhcmVpY29uLm5l/dC9kYXRhLzQ4eDQ4/LzIwMTYvMDgvMDEv/NjQwMzI0X2xvZ29f/NTEyeDUxMi5wbmc"/>`,
+			`<img src="https://imgs.search.brave.com/p1bm7bi3NtnfeZBLMJXxuRdCrcVm56KV7ueBUnWQ1FE/rs:fit:48:48:1/g:ce/aHR0cHM6Ly93d3cu/c2hhcmVpY29uLm5l/dC9kYXRhLzQ4eDQ4/LzIwMTYvMDgvMDEv/NjQwMzI0X2xvZ29f/NTEyeDUxMi5wbmc"/>`
 		],
 		project_link: "https://obedient-act-7016.vercel.app/",
 		project_type: "Indivisual Project",
-		category: ["all", "html"],
+		category: ["all", "html"]
 	},
 
 	{
 		name: "NYKAA-Clone",
-		about: "A beauty product website that provides the facility of beauty product for women. We have 5 member team who clone this website using html , CSS, bootstrap and Javascript with the duration of 4 days.",
+		about: "A beauty product website that provides the facility of beauty product for women. We have 5 member team who clone this website using html , CSS, bootstrap and Javascript with the duration of 4 days. In this Project I have done Landing page of this website and Login/SignUp Page.",
 		img: "https://github.com/tanuk11/Nykaa_Clone/blob/main/Nykaa_image.png?raw=true",
 		gitrepo: "https://github.com/tanuk11/Nykaa_Clone",
 		tech_stack: "HTML | CSS | JAVASCRIPT | API's",
@@ -26,15 +26,15 @@ const Projects = [
 			`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
 			`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
 			`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-			`<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
+			`<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
 		],
 		project_link: "https://tanuk11.github.io/Nykaa_Clone/",
 		project_type: "Group Project",
-		category: ["all", "html"],
+		category: ["all", "html"]
 	},
 	{
-		name: "Image Website",
-		about: "A Image searching app where we can search any Image",
+		name: "Shoot Perfect",
+		about: "Shoot Perfect is a free photo discovery platform where in you can save high-definition photos for your project .It allows users to use photos for commercial or non-commercial purposes without providing any attribution or obtaining permission.",
 		img: "https://github.com/KManishY/imageWebApp/blob/master/imageProject.png?raw=true",
 		gitrepo: "https://github.com/KManishY/imageWebApp",
 		tech_stack: "HTML | CSS | JAVASCRIPT | API's",
@@ -42,28 +42,28 @@ const Projects = [
 			`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
 			`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
 			`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-			`<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
+			`<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
 		],
 		project_link: "https://kmanishy.github.io/imageWebApp/",
 		project_type: "Indivisual Project",
-		category: ["all", "html"],
-	},
-	{
-		name: "Basic Calculator",
-		about: "Basic Calculator using JavaScript to calculate basic calculation",
-		img: "https://github.com/KManishY/Calculater-js/blob/master/calculater.png?raw=true",
-		gitrepo: "https://github.com/KManishY/Calculater-js",
+		category: ["all", "html"]
+	}
+	// {
+	// 	name: "Basic Calculator",
+	// 	about: "Basic Calculator using JavaScript to calculate basic calculation",
+	// 	img: "https://github.com/KManishY/Calculater-js/blob/master/calculater.png?raw=true",
+	// 	gitrepo: "https://github.com/KManishY/Calculater-js",
 
-		tech_stack: " HTML | CSS | JavaScript |",
-		tech_stackicons: [
-			`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-			`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-			`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-		],
-		project_link: "https://kmanishy.github.io/Calculater-js/",
-		project_type: "Indivisual Project",
-		category: ["all", "html", "other"],
-	},
+	// 	tech_stack: " HTML | CSS | JavaScript |",
+	// 	tech_stackicons: [
+	// 		`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+	// 		`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+	// 		`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`
+	// 	],
+	// 	project_link: "https://kmanishy.github.io/Calculater-js/",
+	// 	project_type: "Indivisual Project",
+	// 	category: ["all", "html", "other"]
+	// }
 ];
 
 

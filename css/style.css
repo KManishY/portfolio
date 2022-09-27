@@ -532,11 +532,12 @@ h3.my-profession
 .home__icon_cont {
     display: flex;
     flex-direction: row;
+    gap:5px;
 
 }
 .home__icon_cont i {
     color: var(--skin-color);
-    font-size: 28px;
+    font-size: 40px;
     margin-top: 10px;
     margin-bottom: 15px;
     margin-right: 10px;
@@ -691,7 +692,7 @@ h3.my-profession
 }
 #about-img{
     height: 250px;
-    width: 250px;
+    width: 300px;
     transform: translate(-30%,-8%);
     border-top-right-radius: 40%;
     border-bottom-left-radius: 40%;
@@ -725,7 +726,7 @@ h3.my-profession
 
 /* TODO    to set the image at skill side    */   
 
-    background-image: url();
+    background-image: url('https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif');
     background-size: cover;
     background-repeat: no-repeat;
     height: 93%;
@@ -1037,7 +1038,7 @@ h3.my-profession
 
 .project_tech_box{
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--text-black-900);
 }
 .TechStacks__text{
@@ -1046,15 +1047,15 @@ h3.my-profession
 
 .project-name{
 
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     margin: 10px 0;
     color: var(--text-black-900);
     text-align: justify;
 
 }
 .project__about{
-    height: 140px;
+    height: 120px;
     overflow: hidden;
     font-size: 14px;
 
