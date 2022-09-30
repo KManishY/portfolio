@@ -6,7 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MANISH | WEB DEVELOPER</title>
   <link rel="shortcut icon" href="/images/log.svg">
-  <link rel="shortcut icon" type="image/x-icon" href="./images/cursor.png" />
+  <link rel="shortcut icon" type="image/x-icon"
+    href="./images/cursor.png" />
+  <!-- git hub script  -->
+  <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 
   <!-- ===== CSS Files ===== -->
@@ -349,6 +355,10 @@ emailjs.init("user_BS22T9cVviiUsCtl39P8h");
           </div>
         </div>
       </section>
+      <div class="calendar" style="height:20px; width:50%">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
       <!-- ===== Portfolio Section End ===== -->
       <!-- ===== Contact Section Start ===== -->
       <section class="contact section" id="contact">
@@ -481,6 +491,11 @@ emailjs.init("user_BS22T9cVviiUsCtl39P8h");
 
   <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 
+  <script>
+    GitHubCalendar(".calendar", "kmanishy");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "kmanishy", { responsive: true });
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
   <script src="js/script.js"></script>
   <script src="js/style-switcher.js"></script>
