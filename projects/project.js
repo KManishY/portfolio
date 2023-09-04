@@ -47,7 +47,7 @@ const Projects = [
       `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
       `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
     ],
-    project_link: "https://kmanishy.github.io/imageWebApp/",
+    project_link: "https://kmanishy.github.io/Shoot-Perfect/",
     project_type: "Indivisual Project",
     category: ["all", "html"]
   },
