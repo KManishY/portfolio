@@ -2,7 +2,7 @@ const Projects = [
   {
     name: "Bonsai-Clone(Individual Project)",
     about:
-      "Bonsai is the best way to consolidate the “other” side of being in business as a freelancer or independent operator. I individually done that project using React, React-redux and Chakra UI.",
+      "Bonsai is the best way to consolidate the 'other' side of being in business as a freelancer or independent operator. I individually done that project using React, React-redux and Chakra UI.",
     img: "https://github.com/KManishY/hello_Bonsai_Clone/blob/master/BonsaiImage.png?raw=true",
     gitrepo: "https://github.com/KManishY/hello_Bonsai_Clone",
     tech_stack: "HTML | CSS | JAVASCRIPT | REACT | CHAKRA UI",
@@ -51,23 +51,23 @@ const Projects = [
     project_type: "Indivisual Project",
     category: ["all", "html"]
   },
-  {
-    name: "Basic Calculator",
-    about:
-      "The 'Basic Calculator Using Plain JavaScript' is a simple web calculator that does math using only basic web technology, making it easy to understand and use.",
-    img: "https://github.com/KManishY/Calculater-js/blob/master/calculater.png?raw=true",
-    gitrepo: "https://github.com/KManishY/Calculater-js",
+  // {
+  //   name: "Basic Calculator",
+  //   about:
+  //     "The 'Basic Calculator Using Plain JavaScript' is a simple web calculator that does math using only basic web technology, making it easy to understand and use.",
+  //   img: "https://github.com/KManishY/Calculater-js/blob/master/calculater.png?raw=true",
+  //   gitrepo: "https://github.com/KManishY/Calculater-js",
 
-    tech_stack: " HTML | CSS | JAVASCRIPT | BOOTSTRAP",
-    tech_stackicons: [
-      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-      `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`
-    ],
-    project_link: "https://kmanishy.github.io/Calculater-js/",
-    project_type: "Indivisual Project",
-    category: ["all", "html", "other"]
-  }
+  //   tech_stack: " HTML | CSS | JAVASCRIPT | BOOTSTRAP",
+  //   tech_stackicons: [
+  //     `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+  //     `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+  //     `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`
+  //   ],
+  //   project_link: "https://kmanishy.github.io/Calculater-js/",
+  //   project_type: "Indivisual Project",
+  //   category: ["all", "html", "other"]
+  // }
 ];
 
 let projects__container = document.getElementById("projects--container");
@@ -117,24 +117,23 @@ function displayProjectData(Projects) {
   projects__container.innerHTML = null;
   Projects.reverse().forEach((pro) => {
     let main = document.createElement("div");
-    main.setAttribute("class", "portfolio-item padd-15");
+    main.setAttribute("class", "col-lg-6 col-md-6 mb-4");
     main.innerHTML = `
-    <div class="portfolio-item-inner shadow-dark">
-    <div class="portfolio-img">
-      <img src=${pro.img} alt="">
-      <h3 class="project-name">${pro.name}</h3>
-      <h4 class="project-name project__about">${pro.about}</h4>
-     
-      <div class="project_tech_box">
-      <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stack}
+      <div class="card h-100 project-card">
+        <a href="${pro.gitrepo}" target="_blank" data-toggle="tooltip" title="GitHub Repository">
+        <img src="${pro.img}" class="card-img-top" alt="Screenshot of ${pro.name}" loading="lazy" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">${pro.name}</h5>
+          <p class="card-text text-muted">${pro.about}</p>
+          <div class="mb-3">
+            <small class="text-muted">
+              <strong>Tech Stack:</strong> ${pro.tech_stack}
+            </small>
+          </div>
+          
+        </div>
+        </a>
       </div>
-	  <div class="navigate_ar">
-      <a href=${pro.project_link} target="_blank" title="Demo" class="see-project"><i class="fas fa-eye"></i></a>
-      <a href=${pro.gitrepo} target="_blank" title="GitHub Repository" class="github-repo"><i class="fab fa-github"></i></a>
-      </div>
-      
-    </div>
-  </div>
     `;
     projects__container.append(main);
   });
